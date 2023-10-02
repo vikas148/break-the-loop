@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hacker's Code</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #0f0;
+            font-family: "Courier New", Courier, monospace;
+            padding: 20px;
+            overflow: hidden; /* Prevent horizontal scrollbar */
+            animation: glitch 3s infinite;
+        }
+        @keyframes glitch {
+            0% {
+                transform: translate(0);
+            }
+            25% {
+                transform: translate(4px, -4px);
+            }
+            50% {
+                transform: translate(-4px, 4px);
+            }
+            75% {
+                transform: translate(2px, 2px);
+            }
+            100% {
+                transform: translate(0);
+            }
+        }
+        pre {
+            background-color: #111;
+            padding: 20px;
+            border: 1px solid #0f0;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Break the loop</h1>
+    <p>Just try to dry run this code snippit , at the end you gonna get the answer:</p>
+    <pre>
+        <code>
+            <!-- <span style="color:#00f">#include</span> &lt;stdio.h&gt; -->
+
+            <!-- <span style="color:#0f0">int</span> main()  -->
+            {
+                <span style="color:#0f0">int</span> i = 1;
+                
+                <span style="color:#00f">for</span>(<span style="color:#0f0">printf</span>(<span style="color:#f00">"1");</span> i <= 4;<span style="color:#0f0">printf</span>(<span style="color:#f00">"3"))</span> {
+                    <span style="color:#0f0">printf</span>(<span style="color:#f00">"2");</span>
+                    i++;
+                }
+                <!-- <span style="color:#00f">return</span> 0; -->
+            }
+        </code>
+    </pre>
+</body>
+</html>
